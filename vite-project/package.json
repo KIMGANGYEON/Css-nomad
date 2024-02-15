@@ -1,5 +1,5 @@
 {
-  "name": "css-layout-masterclass",
+  "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.70.0",
-    "vite": "^5.0.8"
+    "vite": "^5.1.0"
   }
 }

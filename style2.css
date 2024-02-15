@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 0;
+}
+
+.box-box {
+  height: 200px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-box:first-child {
+  background-color: red;
+  flex: 0 0 500px;
+  /* flex-grow: 0;
+  flex-basis: 500px;
+  flex-shrink: 3; */
+  /* flex-shrink: 5; */
+}
+
+.box-box:nth-child(2) {
+  background-color: burlywood;
+  flex-grow: 1;
+  /* flex-shrink: 8; */
+}
+
+.box-box:nth-child(3) {
+  background-color: blue;
+  flex-grow: 1;
+  /* flex-shrink: 2; */
+}

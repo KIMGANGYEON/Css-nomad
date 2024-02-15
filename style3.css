@@ -1,0 +1,52 @@
+.father {
+  /* display: grid;
+  grid-template-columns: [apple] 100px [potato] 200px [brocoli] 50px [banana];
+  grid-template-rows: [korea] 200px [thailand] 100px [greece];
+  gap: 10px; */
+  display: grid;
+  min-height: 100vh;
+  gap: 20px;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(2, 100px);
+  /* align-content: center;
+  justify-content: center; */
+  place-content: center center;
+  /* grid-auto-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  /* justify-items: stretch;
+  align-items: stretch; */
+  /* place-items: end end; */
+}
+
+.child {
+  background-color: tomato;
+  display: flex;
+  color: white;
+  font-size: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .child:nth-child(6) {
+  background-color: teal;
+  /* align-self: start;
+  justify-self: center; */
+/* place-self: start end; */
+/* }  */
+
+/* .child:first-child { */
+/* grid-row-start: 1;
+    grid-row-end: 3; */
+/* grid-row: 1 / -1; */
+/* background-color: khaki; */
+/* grid-row: span 2; */
+/* } */
+
+/* .child:last-child {
+  background-color: aquamarine;
+  grid-column: potato / span 2; */
+/* grid-column-start: 2;
+  grid-column-end: 4; */
+/* grid-column: potato / -1; */
+/* } */
